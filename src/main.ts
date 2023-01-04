@@ -8,6 +8,10 @@ const router = createRouter({
   routes: [
     { path: '/', component: defineAsyncComponent(() => import('./pages/home.vue')) },
     { path: '/about', component: defineAsyncComponent(() => import('./pages/about.vue')) },
+    { path: '/contact', component: defineAsyncComponent(() => import('./pages/Contact.vue')) },
+    { path: '/dashboard', component: defineAsyncComponent(() => import('./pages/Dashboard.vue')) },
+    { path: '/profile', component: defineAsyncComponent(() => import('./pages/Profile.vue')) },
+    { path: '/my-insights', component: defineAsyncComponent(() => import('./pages/MyInsights.vue')) },
     { path: '/hi/:name', component: defineAsyncComponent(() => import('./pages/hi/[name].vue')), props: true },
   ],
 })

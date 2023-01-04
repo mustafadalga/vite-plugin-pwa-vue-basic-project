@@ -31,8 +31,30 @@ onBeforeMount(() => {
 
 <template>
   <img src="/favicon.svg" alt="PWA Logo" width="58" height="60">
+
+<ul>
+  <li>
+    <router-link to="/dashboard">dashboard</router-link>
+  </li>
+  <li>
+    <router-link to="/my-insights">my-insights</router-link>
+  </li>
+  <li>
+    <router-link to="/profile">profile</router-link>
+  </li>
+  <li>
+    <router-link to="/contact">contact</router-link>
+  </li>
+</ul>
+
+
   <br>
   <div>Built at: {{ date }} ({{ timeAgo }})</div>
+
+
+
+
+
   <br>
   <router-view />
   <br>
