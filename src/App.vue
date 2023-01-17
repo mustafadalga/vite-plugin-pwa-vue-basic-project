@@ -23,6 +23,9 @@ const url=import.meta.env.VITE_URL
       <router-link to="/dashboard-v4">dashboard v4 </router-link>
     </li>
     <li>
+      <router-link to="/gallery">Gallery</router-link>
+    </li>
+    <li>
       <router-link to="/my-insights">my-insights</router-link>
     </li>
     <li>

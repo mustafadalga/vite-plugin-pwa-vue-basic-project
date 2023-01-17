@@ -24,7 +24,10 @@ export default defineConfig(({command, mode}: IDefineConfig) => {
                 // @ts-ignore
                 mode: mode,
                 registerType: "autoUpdate",
-                useCredentials: true
+                useCredentials: true,
+                workbox:{
+                    maximumFileSizeToCacheInBytes:3000000
+                },
             })
         ],
         resolve: {

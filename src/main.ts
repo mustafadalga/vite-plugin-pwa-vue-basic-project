@@ -20,6 +20,7 @@ const router = createRouter({
         {path: '/dashboard-v4', component: () => import('./pages/DashboardV4.vue')},
         {path: '/profile', component: () => import('./pages/Profile.vue')},
         {path: '/my-insights', component: () => import('./pages/MyInsights.vue')},
+        {path: '/gallery', component: () => import('./pages/Gallery.vue')},
         {path: '/hi/:name', component: () => import('./pages/hi/[name].vue'), props: true},
         {path: "/:catchAll(.*)", component: () => import('./pages/NotFound.vue')},
     ],

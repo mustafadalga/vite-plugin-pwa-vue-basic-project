@@ -3,9 +3,9 @@ import { defineAsyncComponent } from "vue";
 import { ref } from "vue";
 
 const Gallery = defineAsyncComponent(() => import("@/components/Gallery.vue"));
-const GalleryText = defineAsyncComponent(() => import("@/components/GalleryText.vue"));
+const GalleryText = defineAsyncComponent(() => import("@/components/gallery-text/GalleryText.vue"));
 const GalleryV2 = defineAsyncComponent(() => import("@/components/GalleryV2.vue"));
-const GalleryTextV2 = defineAsyncComponent(() => import("@/components/GalleryTextV2.vue"));
+const GalleryTextV2 = defineAsyncComponent(() => import("@/components/gallery-text/GalleryTextV2.vue"));
 
 const showGallery = ref(false);
 
