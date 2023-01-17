@@ -1,7 +1,7 @@
 <script setup>
 
 
-const url=import.meta.env.VITE_URL
+const url = import.meta.env.VITE_URL
 </script>
 <template>
   <img src="/favicon.svg" alt="PWA Logo" width="58" height="60">
@@ -20,7 +20,7 @@ const url=import.meta.env.VITE_URL
       <router-link to="/dashboard-v3">dashboard v3</router-link>
     </li>
     <li>
-      <router-link to="/dashboard-v4">dashboard v4 </router-link>
+      <router-link to="/dashboard-v4">dashboard v4</router-link>
     </li>
     <li>
       <router-link to="/gallery">Gallery</router-link>
